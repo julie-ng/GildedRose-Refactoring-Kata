@@ -17,7 +17,7 @@ export class GildedRose {
         this.items = items;
     }
 
-    updateQuality() {
+    updateQualityAndSellin() {
         for (let i = 0; i < this.items.length; i++) {
             if (this.items[i].name != 'Aged Brie' && this.items[i].name != 'Backstage passes to a TAFKAL80ETC concert') {
                 if (this.items[i].quality > 0) {
